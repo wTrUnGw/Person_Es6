@@ -11,24 +11,20 @@ export async function fetchData() {
   }
 }
 
-//   this.deletePersonById = function (id) {
-//     var promise = axios({
-//       url: `https://650f9b1554d18aabfe9a2044.mockapi.io/api/person/${id}`,
-//       method: "DELETE",
-//     });
+export function deletePersonById(id) {
+  return axios({
+    url: `https://650f9b1554d18aabfe9a2044.mockapi.io/api/person/${id}`,
+    method: "DELETE",
+  });
+}
 
-//     return promise;
-//   };
-
-//   this.addPersonApi = function (person) {
-//     var promise = axios({
-//       url: "https://650f9b1554d18aabfe9a2044.mockapi.io/api/person",
-//       method: "POST",
-//       data: person,
-//     });
-
-//     return promise;
-//   };
+export function addPersonApi(person) {
+  return axios({
+    url: "https://650f9b1554d18aabfe9a2044.mockapi.io/api/person",
+    method: "POST",
+    data: person,
+  });
+}
 
 //   this.getPersonById = function (id) {
 //     var promise = axios({
