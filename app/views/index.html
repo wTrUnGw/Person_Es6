@@ -35,14 +35,23 @@
               <i class="fa fa-plus mr-1"></i>
               Thêm Mới
             </button>
-            <!-- <button id="btn" class="btn btn-success" data-toggle="modal" data-target="#myModal" onclick="reset()">
+
+            <button id="btnStudent" class="btn btn-success" data-toggle="modal" data-target="#myModal">
               <i class="fa fa-plus mr-1"></i>
               Thêm Students
             </button>
-            <button id="btnThem" class="btn btn-success" data-toggle="modal" data-target="#myModal" onclick="reset()">
+
+
+            <button id="btnEmployee" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+              <i class="fa fa-plus mr-1"></i>
+              Thêm Employee
+            </button>
+
+            <button id="btnCustomer" class="btn btn-success" data-toggle="modal" data-target="#myModal">
               <i class="fa fa-plus mr-1"></i>
               Thêm Customer
-            </button> -->
+            </button>
+
             <!-- END BUTTON THÊM MỚI -->
           </div>
           <div class="col-md-4">
@@ -67,6 +76,14 @@
               <th>Address</th>
               <th>Code</th>
               <th>Email</th>
+              <th>Math</th>
+              <th>Physic</th>
+              <th>Chemistry</th>
+              <th>WorkDays</th>
+              <th>DailyWage</th>
+              <th>CompanyName</th>
+              <th>Value</th>
+              <th>Rating</th>
 
             </thead>
             <tbody id="tblDanhSachSP"></tbody>
@@ -109,6 +126,55 @@
               <label>Email</label>
               <input id="email" class="form-control" placeholder="Nhập email" />
             </div>
+
+            <!-- Model Student -->
+            <div class="form-group">
+              <label>Math</label>
+              <input id="math" class="form-control" placeholder="Nhập điểm môn toán" />
+            </div>
+
+            <div class="form-group">
+              <label>Physic</label>
+              <input id="physic" class="form-control" placeholder="Nhập điểm môn lý" />
+            </div>
+            <!-- 
+           
+
+            <div class="form-group">
+              <label>Chemistry</label>
+              <input id="chemistry" class="form-control" placeholder="Nhập điểm môn hóa" />
+            </div> -->
+
+
+            <!-- Model Employee -->
+
+            <!-- <div class="form-group">
+              <label>WorkDays</label>
+              <input id="workDays" class="form-control" placeholder="Nhập số ngày làm việc" />
+            </div>
+
+            <div class="form-group">
+              <label>DailyWage</label>
+              <input id="dailyWage" class="form-control" placeholder="Nhập lương theo ngày" />
+            </div> -->
+
+            <!-- Model Customer -->
+
+            <!-- <div class="form-group">
+              <label>CompanyName</label>
+              <input id="companyName" class="form-control" placeholder="Nhập tên công ty" />
+            </div>
+
+            <div class="form-group">
+              <label>Value</label>
+              <input id="value" class="form-control" placeholder="Nhập trị giá hóa đơn" />
+            </div>
+
+            <div class="form-group">
+              <label>Rating</label>
+              <input id="rating" class="form-control" placeholder="Nhập đánh giá" />
+            </div> -->
+
           </div>
           <!-- Modal footer -->
           <div class="modal-footer"></div>
@@ -118,7 +184,7 @@
     </div>
   </div>
   <div id="container">
-    <button class="btn btn-success" onclick="hello()">click</button>
+
   </div>
   <style>
     #container {
